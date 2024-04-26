@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+.container {
+    background-image: linear-gradient(to bottom right, purple, yellow);
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box {
+    padding: 200px;
+    border: 2px solid black;
+}
+
+.tiger {
+    background-image: url(./images/tiger.webp);
+    background-size: contain;
+}
+
+.fish {
+    background-image: url(./images/fish.webp);
+    background-size: contain;
+}
