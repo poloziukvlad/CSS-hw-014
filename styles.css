@@ -1,3 +1,35 @@
+@media only screen and (min-width: 768px) {
+    .container {
+        height: 300px; 
+        width: 500px; 
+    }
+
+    .element {
+        padding: 30px; 
+    }
+
+    .message {
+        font-size: 18px; 
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .container {
+        height: 150px;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .element {
+        padding: 15px;
+    }
+
+    .message {
+        font-size: 14px;
+    }
+}
+
 .container {
     position: relative;
     height: 200px; 
@@ -27,4 +59,12 @@
 
 .element:hover .message {
     opacity: 1; 
+}
+
+.element {
+    background-image: url('./images/tiger.webp');
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
 }
