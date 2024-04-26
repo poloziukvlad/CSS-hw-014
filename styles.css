@@ -28,6 +28,15 @@ body {
     color: yellow;
   }
 
+  .button::after {
+    content: "Тыць";
+    width: 15px;
+    height: 10px;
+    background-image: linear-gradient(to bottom right, red,blue);
+    padding: 10px;
+  }
+
+
 .social-icons {
     margin-top: 50px;
     display: flex;
