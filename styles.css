@@ -1,28 +1,21 @@
-* {
-    padding: 0;
+body {
     margin: 0;
-    
-}
+    padding: 0;
+  }
 
-.container {
-    background-image: linear-gradient(to bottom right, purple, yellow);
-    height: 100vh;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
+  p {
+    margin: 0;
+  }
+  
+  
+  .high {
+    height: 200px;
+  }
 
-.box {
-    padding: 200px;
-    border: 2px solid black;
-}
-
-.tiger {
-    background-image: url(./images/tiger.webp);
-    background-size: contain;
-}
-
-.fish {
-    background-image: url(./images/fish.webp);
-    background-size: contain;
-}
+  .box {
+    background-image: url(./images/nature.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+  }
