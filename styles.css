@@ -1,27 +1,17 @@
 body {
+    height: 100vh;
     margin: 0;
     padding: 0;
+    background-image: linear-gradient(to bottom right, blue,yellow);
   }
 
   p {
     margin: 0;
     padding-top: 10px;
     padding-bottom: 10px;
-  }
-  
-  
-  .high {
-    height: 200px;
-  }
-
-  .box {
-    background-image: url(./images/nature.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
     color: white;
-    text-align: center;
   }
-
+  
   .button {
     padding: 10px 15px 10px 15px;
     background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);
