@@ -24,15 +24,19 @@ body {
 
   .button {
     padding: 10px 15px 10px 15px;
-    background-image: url(./images/tiger.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);
     color: white;
     border-radius: 50px;
     cursor: pointer;
   }
 
   .button:hover {
-    opacity: .6;
-    transition: all 500ms ease-out;
+    background-position: right center; 
+    background-image: linear-gradient(to right, #81ee0c 0%, #382a2f  51%, #1c043f  100%);
+    text-transform: uppercase;
+    color: yellow;
   }
+
+           
+
+ 
